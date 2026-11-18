@@ -5,13 +5,16 @@ int main()
     int n, A[50][50], B[50][50], C[50][50];
     scanf("%d", &n);
 
+    printf("Matriks A\n");
     for (int i = 0; i < n; i++)
         for (int j = 0; j < n; j++)
             scanf("%d", &A[i][j]);
+    printf("Matriks B\n");
     for (int i = 0; i < n; i++)
         for (int j = 0; j < n; j++)
             scanf("%d", &B[i][j]);
 
+    printf("Matriks AXB\n");
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
